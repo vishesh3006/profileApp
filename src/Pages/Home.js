@@ -81,7 +81,7 @@ export const Home = () => {
                     <Col xs={24} lg={12} xl={8} style={{display: 'flex', justifyContent: 'center'}}>
                         <Skeleton avatar paragraph={{ rows: 7 }} style={{marginTop: '60px'}} />
                     </Col>
-                    <Col xs={24} lg={12} xl={16} style={{display: 'flex', justifyContent: 'center', flexDirection: 'column'}}>
+                    <Col xs={24} lg={12} xl={16}>
                         <Skeleton avatar paragraph={{ rows: 3 }} style={{marginTop: '60px', maxWidth: '600px'}} />
                         <Skeleton avatar paragraph={{ rows: 3 }} style={{marginTop: '20px', maxWidth: '600px'}} />
                         <Skeleton avatar paragraph={{ rows: 3 }} style={{marginTop: '20px', maxWidth: '600px'}} />
@@ -94,7 +94,7 @@ export const Home = () => {
                         <Col xs={24} lg={12} xl={8} style={{display: 'flex', justifyContent: 'center'}}>
                             <UserProfile user={user}/>
                         </Col>
-                        <Col xs={24} lg={12} xl={16} style={{display: 'flex', justifyContent: 'center', flexDirection: 'column'}}>
+                        <Col xs={24} lg={12} xl={16}>
                             {users ? <ProfileList style={{height: '100%', overflowY: 'auto'}} users={users.slice(minValue, maxValue)} curUser={user}/> : <p>No Profiles to Show</p>}
                             <div className='pagination'>
                                 <Pagination
