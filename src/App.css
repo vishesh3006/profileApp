@@ -1,0 +1,166 @@
+
+.container{
+    margin: 30px auto 0 auto;
+    max-width: 950px;
+  }
+  
+  .login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 200px;
+    max-width: 300px;
+  }
+  .ant-menu-overflow{
+    justify-content: center;
+    box-shadow: #5d5d5d;
+  }
+  .ant-card-meta-title{
+    color: #1890ff;
+    margin-bottom: 0;
+  }
+
+
+  #navbar .ant-menu-item-selected a, #navbar .ant-menu-item-selected span{
+    color: black;
+    text-decoration: none;
+    border: none;
+  }
+
+  #navbar .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover:after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover:after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active:after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active:after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open:after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open:after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected:after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected:after{
+    border: none;
+  }
+
+  .pagination{
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .profileCard{
+    max-width: 600;
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 7px;
+  }
+  
+  .btn{
+    margin-bottom: 10px;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 7px;
+  }
+  
+  .anonymous{
+    background-color: #1a1a1a;
+  }
+  
+  .anonymous .ant-spin-dot-item {
+    background-color: #1a1a1a;
+  }
+
+  .ant-card-cover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto 10px;
+  }
+
+  .profileCard .ant-card-cover img{
+    width: fit-content;
+    border: none;
+    border-radius: 50%; 
+    height: 110px;
+    width: 110px;
+    margin: 15px 10px;
+  }
+
+
+  .profileCard .ant-card-meta {
+    width: 100%;
+    max-width: 700px;
+    margin-right: 2px;
+  }
+
+  .userDiv{
+    position: fixed;
+  }
+
+  @media screen and (max-width: 992px) and (min-width: 500px) {
+    .userDiv {
+      position: relative;
+  }
+  }
+
+  @media screen and (max-width: 500px) {
+    .userDiv {
+        position: relative;
+    }
+    .profileCard .ant-card-cover img{
+      width: 70px;
+      height: 70px
+    }
+
+    .profileCard .ant-card-body{
+      padding: 15px;
+      width: 78%;
+    }
+
+}
+
+.ant-row{
+  margin-left: 0;
+  margin-right: 0;
+  row-gap: 0;
+}
+
+  .userProfile{
+    margin: 60px auto;
+    border-radius: 7px;
+    max-width: 350px;
+  }
+
+  .userProfile .ant-card-cover{
+    text-align: center;
+    justify-content: center;
+  }
+
+  .userProfile .ant-card-cover img{
+    border: none;
+    border-radius: 50%; 
+    height: 150px;
+    width: 150px;
+    margin: 20px auto;
+  }
+
+  .ant-form{
+    margin: auto;
+    max-width: 600px;
+  }
+
+  
+  .anonymous:hover{
+    background-color: #5d5d5d;
+  }
+  
+  .ant-card-meta-description .status{
+    color: black;
+  }
+
+  .profileButtons span:hover{
+    color: #1890ff;
+  }
+
+  .profileButtons span.heart:hover{
+    color: 'red';
+  }
+  
+  .timestamp{
+    font-size: 0.6rem;
+  }
